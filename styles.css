@@ -1,0 +1,67 @@
+body {
+    background-image: url('mechanical.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: gray;
+}
+.header {
+    background-color: gray;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    padding: 30px;
+    background-color:lightblue; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input, select, textarea {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .footer p {
+        font-size: 0.9rem;
+    }
+
+
+
